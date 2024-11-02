@@ -16,8 +16,9 @@ blueprint:
 
     🚀 This blueprint is part of the **[Awesome HA Blueprints](https://epmatt.github.io/awesome-ha-blueprints) project**.
 
-    ℹ️ Version 2022.07.30
-  source_url: https://github.com/lsismeiro/awesome-ha-blueprints/blob/main/blueprints/hooks/light/light.yaml
+    ℹ️ Version 2024.11.02
+  # source_url: https://github.com/lsismeiro/awesome-ha-blueprints/blob/main/blueprints/hooks/light/light.yaml
+  source_url: https://github.com/bradfrumos/awesome-ha-blueprints/blob/main/blueprints/hooks/light/light.yaml
   domain: automation
   input:
     controller_device:
@@ -48,6 +49,7 @@ blueprint:
             - IKEA E1812 TRÅDFRI Shortcut button
             - IKEA E2001/E2002 STYRBAR Remote control
             - IKEA E2001/E2002 STYRBAR Remote control (#2)
+            - IKEA E2213 SOMRIG shortcut button
             - IKEA ICTC-G-1 TRÅDFRI wireless dimmer
             - OSRAM AC025XX00NJ SMART+ Switch Mini
             - Philips 324131092621 Hue Dimmer switch
@@ -260,6 +262,13 @@ variables:
       color_down_repeat: button_left_long
       color_up: button_right_short
       color_up_repeat: button_right_long
+    IKEA E2213 SOMRIG shortcut button:
+      turn_on: button_1_short
+      brightness_up_repeat: button_1_long
+      color_up: button_1_double
+      turn_off: button_2_short
+      brightness_down_repeat: button_2_long
+      color_down: button_2_double
     IKEA ICTC-G-1 TRÅDFRI wireless dimmer:
       brightness_down_repeat: rotate_left
       brightness_up_repeat: rotate_right
