@@ -307,9 +307,7 @@ action:
         sequence:
           - choose:
               # if immediate action is disabled
-              - conditions:
-                - condition: template
-                  value_template: "{{ not button_1_immediate_action }}"
+              - conditions: "{{ not button_1_immediate_action }}"
                 sequence:
                   # run the short press action
                   # fire the event
@@ -379,9 +377,7 @@ action:
         sequence:
           - choose:
               # if immediate action is disabled
-              - conditions:
-                - condition: template
-                  value_template: "{{ not button_2_immediate_action }}"
+              - conditions: "{{ not button_2_immediate_action }}"
                 sequence:
                   # run the short press action
                   # fire the event
