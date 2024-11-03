@@ -298,8 +298,10 @@ variables:
       brightness_up_repeat: button_up_long
       brightness_down: button_down_short
       brightness_down_repeat: button_down_long
-    Philips 8718699693985 Hue Smart Button:
+    Philips 8718699693985 Hue smart button:
       toggle: button_short
+      brightness_up_repeat: button_brightness_up
+      brightness_down_repeat: button_brightness_down
     Philips 929002398602 Hue Dimmer switch v2:
       turn_on: button_on_short
       color_up_repeat: button_on_long
