@@ -64,6 +64,18 @@ blueprint:
       default: []
       selector:
         action:
+    action_button_brightness_up:
+      name: (Optional) Button long press brightness up
+      description: Action to run on long up button press where the button sends the brightness up action.
+      default: []
+      selector:
+        action:
+    action_button_brightness_down:
+      name: (Optional) Button long press brightness down
+      description: Action to run on long down button press where the button sends the brightness down action.
+      default: []
+      selector:
+        action:
     action_button_release:
       name: (Optional) Up button release
       description: Action to run on up button release after long press.
