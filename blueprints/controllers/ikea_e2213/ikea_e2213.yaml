@@ -2,11 +2,11 @@
 blueprint:
   homeassistant:
     min_version: "2023.6.0"
-  name: Controller - IKEA E2213 SOMRIG Shortcut Button
+  name: Controller - IKEA E2213 SOMRIG shortcut button
   description: |
-    # Controller - IKEA E2213 SOMRIG Shortcut Button
+    # Controller - IKEA E2213 SOMRIG shortcut button
 
-    Controller automation for executing any kind of action triggered by the provided IKEA E2213 SOMRIG Shortcut Button. Allows to optionally loop an action on a button long press.
+    Controller automation for executing any kind of action triggered by the provided IKEA E2213 SOMRIG shortcut button. Allows to optionally loop an action on a button long press.
     Supports deCONZ (untested), ZHA (untested), Zigbee2MQTT.
 
     Automations created with this blueprint can be connected with one or more [Hooks](https://epmatt.github.io/awesome-ha-blueprints/docs/blueprints/hooks) supported by this controller.
