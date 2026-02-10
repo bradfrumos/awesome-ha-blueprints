@@ -201,13 +201,13 @@ variables:
         - 1_long release
     zigbee2mqtt:
       button_1_short:
-        - on
+        - 'on'
       button_1_long:
         - brightness_move_up
       button_1_double:
         - on_double
       button_2_short:
-        - off
+        - 'off'
       button_2_long:
         - brightness_move_down
       button_2_double:
