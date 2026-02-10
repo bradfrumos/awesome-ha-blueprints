@@ -100,8 +100,8 @@ blueprint:
       selector:
         action: {}
     action_button_long_release:
-      name: (Optional) Button 1 release
-      description: Action to run on button 1 release after long press.
+      name: (Optional) Button release after long press
+      description: Action to run on button (1 or 2) release after long press.
       default: []
       selector:
         action: {}
