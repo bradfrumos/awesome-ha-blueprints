@@ -51,6 +51,7 @@ blueprint:
             - IKEA E2001/E2002 STYRBAR Remote control (#2)
             - IKEA E2213 SOMRIG shortcut button
             - IKEA ICTC-G-1 TRÅDFRI wireless dimmer
+            - IKEA E2489 BILRESA remote control with buttons
             - OSRAM AC025XX00NJ SMART+ Switch Mini
             - Philips 324131092621 Hue Dimmer switch
             - Philips 324131137411 Hue Dimmer switch
@@ -272,6 +273,13 @@ variables:
     IKEA ICTC-G-1 TRÅDFRI wireless dimmer:
       brightness_down_repeat: rotate_left
       brightness_up_repeat: rotate_right
+    IKEA E2489 BILRESA remote control with buttons:
+      turn_on: on
+      color_up: on_double
+      brightness_up_repeat: brightness_move_up
+      turn_off: off
+      color_down: off_double
+      brightness_down_repeat: brightness_move_down
     OSRAM AC025XX00NJ SMART+ Switch Mini:
       brightness_up: button_up_short
       brightness_up_repeat: button_up_long
