@@ -274,10 +274,10 @@ variables:
       brightness_down_repeat: rotate_left
       brightness_up_repeat: rotate_right
     IKEA E2489 BILRESA remote control with buttons:
-      turn_on: on
+      turn_on: 'on'
       color_up: on_double
       brightness_up_repeat: brightness_move_up
-      turn_off: off
+      turn_off: 'off'
       color_down: off_double
       brightness_down_repeat: brightness_move_down
     OSRAM AC025XX00NJ SMART+ Switch Mini:
